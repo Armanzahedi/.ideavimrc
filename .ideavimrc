@@ -1,0 +1,38 @@
+""" Map leader to space ---------------------
+let mapleader=" "
+
+""" Plugins  --------------------------------
+set NERDTree
+
+""" Plugin settings -------------------------
+
+
+""" Common settings -------------------------
+
+
+""" Idea specific settings ------------------
+
+
+""" Mappings --------------------------------
+map <leader>f <Plug>(easymotion-s)
+map <leader>e <Plug>(easymotion-f)
+
+map <leader>d <Action>(Debug)
+map <leader>r <Action>(RenameElement)
+map <leader>c <Action>(Stop)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+
+map <leader>gh <Action>(Vcs.ShowTabbedFileHistory)
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>o <Action>(FileStructurePopup)
+map <leader>c <Action>(CloseEditor)
+map <leader>g <Action>(Generate)
+map <leader>/ <Action>(ShowErrorDescription)
+map <leader>h <Action>(PreviousTab)
+map <leader>l <Action>(NextTab)
+map <leader>gm <Action>(Git.Menu)
+map <leader>e :NERDTreeToggle<CR>
+map <leader>ff <Action>(FindInPath)
+map <leader>hh <Action>(ReplaceInPath)
+map <leader>f <Action>(Find)
+map <leader>h <Action>(Replace)
